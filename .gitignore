@@ -1,0 +1,57 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings
+.vscode/
+
+# MacOS system files
+.DS_Store
+
+# MLflow tracking and artifacts
+mlruns/
+mlartifacts/
+
+# Data and logs
+*.csv
+*.tsv
+*.log
+*.db
+*.sqlite
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Prediction logs
+prediction_log.csv
+
+# Environment files
+.env
+.env.*
+
+# Other
+*.bak
+*.swp 
